@@ -1,0 +1,19 @@
+# Core LLM/Orchestration
+ollama
+langchain
+langchain-community
+langchain-ollama
+langgraph
+pydantic
+python-dotenv
+
+# Diagnostic/Agentic Tools
+# We use subprocess for kubectl wrapper, but fastmcp/langchain-mcp-adapters
+# might be kept if they are required by the agent pattern, as requested.
+# If we stick to pure LangChain/ReAct for now, we might not need these,
+# but I'll include them as requested.
+fastmcp
+langchain-mcp-adapters
+
+# CLI
+click
